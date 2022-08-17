@@ -104,6 +104,7 @@ const Navber = (props: Props) => {
               <Route path="/mapInterface" element={<MapInterface />} />
               <Route path="/alarmMonitor" element={<AlarmMonitor />} />
               <Route path="/informationLink" element={<InformationLink />} />
+              <Route path="/videoWallIntegration" element={<VideoWall />} />
               <Route
                 path="/eventNotification"
                 element={<EventNotification />}
